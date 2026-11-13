@@ -29,6 +29,12 @@
       "identifier": "10.5281/zenodo.21458863",
       "relation": "isNewVersionOf",
       "scheme": "doi"
+    },
+    {
+      "identifier": "https://github.com/Thanayut-crru/blackchin-tilapia-geomatics",
+      "relation": "isSupplementTo",
+      "resource_type": "software",
+      "scheme": "url"
     }
   ],
   "notes": "MIT covers original code only. OSM-derived files remain ODbL; GBIF/iNaturalist records and photographs keep their own licences; other third-party source terms apply. Publish as a new version of the existing Zenodo record (concept DOI 10.5281/zenodo.21458862). Complete the repository and occurrence-download fields before publication."
