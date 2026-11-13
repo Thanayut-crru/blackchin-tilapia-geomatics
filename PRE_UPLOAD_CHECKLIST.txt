@@ -2,9 +2,9 @@
 
 - [ ] Confirm that Rattana Prommai and Thanayut Changruenngam are in the correct author order.
 - [ ] Add ORCIDs for Rattana Prommai and Thanayut Changruenngam if available.
-- [ ] Create/publish the public Git repository and insert its release URL.
-- [ ] Open record 10.5281/zenodo.21458863 on Zenodo and click **New version** (do not create a new record).
-- [ ] Reserve the version DOI and insert it in the manuscript Data Availability Statement and metadata.
+- [x] Create/publish the public Git repository and insert its release URL.
+- [x] Open record 10.5281/zenodo.21458863 on Zenodo and click **New version** (do not create a new record).
+- [x] Reserve the version DOI and insert it in the manuscript Data Availability Statement and metadata.
 - [ ] Add the exact GBIF download DOI and dataset-level licence/citation statement.
 - [ ] Confirm redistribution permission for the two non-GBIF literature records.
 - [ ] Confirm the intended manuscript/figure licence.
