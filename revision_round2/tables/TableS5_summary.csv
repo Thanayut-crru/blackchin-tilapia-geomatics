@@ -1,0 +1,6 @@
+quantity,value
+Selected configuration pooled AUC (post-selection),0.852
+Median pooled AUC across 48 configurations (IQR),0.809 (0.761-0.823)
+Range of the six highest pooled AUCs,0.843-0.852
+"LORO held-out pooled AUC, selection by pooled AUC: mean (range)",0.788 (0.548-0.902)
+"LORO held-out mean fold AUC, selection by mean fold AUC: mean (range of repetition means)",0.791 (0.532-0.903)

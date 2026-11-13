@@ -1,0 +1,8 @@
+{
+  "lo": 0.2,
+  "hi": 0.6,
+  "buffer": 10.0,
+  "tag": "plus14",
+  "occ": "extra_records/occ_plus_order.csv",
+  "outroot": "extra_records"
+}

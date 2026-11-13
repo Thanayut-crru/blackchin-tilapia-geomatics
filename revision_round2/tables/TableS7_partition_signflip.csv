@@ -1,0 +1,13 @@
+response,comparison,mean_difference,partitions_favouring_uz,n_partitions,p_exact_signflip,p_holm
+auc_roc,Uncertainty-zone - Random,-0.01048321419444988,7,15,0.75408935546875,1.0
+auc_roc,Uncertainty-zone - Spatially constrained,0.01808448530371241,8,15,0.543212890625,1.0
+auc_roc,Uncertainty-zone - Two-step,0.008769809472934476,8,15,0.8331298828125,1.0
+pr_auc,Uncertainty-zone - Random,0.06251380957408421,11,15,0.1937255859375,0.1937255859375
+pr_auc,Uncertainty-zone - Spatially constrained,0.07535183029481073,12,15,0.06451416015625,0.1290283203125
+pr_auc,Uncertainty-zone - Two-step,0.12347512364578232,12,15,0.04278564453125,0.12835693359375
+brier,Uncertainty-zone - Random,-0.0736140631384091,9,15,0.12164306640625,0.1240234375
+brier,Uncertainty-zone - Spatially constrained,-0.08326752971542002,10,15,0.06201171875,0.1240234375
+brier,Uncertainty-zone - Two-step,-0.17840035577675242,10,15,0.0096435546875,0.0289306640625
+tss,Uncertainty-zone - Random,0.00889141167334376,6,15,0.85003662109375,1.0
+tss,Uncertainty-zone - Spatially constrained,0.04286289174044107,6,15,0.35101318359375,1.0
+tss,Uncertainty-zone - Two-step,-0.009645288263322949,5,15,0.87744140625,1.0

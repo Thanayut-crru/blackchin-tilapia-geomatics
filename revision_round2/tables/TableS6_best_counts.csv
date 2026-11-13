@@ -1,0 +1,5 @@
+,auc_roc,pr_auc,brier,tss
+Random,5,0,1,3
+Spatially constrained,0,2,0,0
+Two-step,3,0,0,5
+Uncertainty-zone,4,10,11,4

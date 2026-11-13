@@ -1,0 +1,35 @@
+{
+  "title": "Associations of Environmental, Waterway-Context, and Human-Activity Predictors with Blackchin Tilapia Records in Thailand",
+  "description": "Versioned code, model-ready inputs permitted for redistribution, archived out-of-fold predictions, spatial diagnostics, and figures for an exploratory presence-background analysis of blackchin tilapia records in Thailand. Version 1.2.0 adds the analyses requested during peer review (Tables S3-S10 of the revised article): record-level provenance of the 38 records, rank stability of predictor importance, a leave-one-repetition-out check of configuration selection, comparisons of pseudo-absence strategies, a 12-setting sensitivity analysis of the uncertainty-zone rule, a residual correlogram, and a sensitivity analysis adding 14 grid cells omitted by the order of record processing. The unpublished manuscript is not included. Screening surfaces are not occurrence probabilities or operational risk maps.",
+  "upload_type": "software",
+  "creators": [
+    {
+      "name": "Prommai, Rattana",
+      "affiliation": "Department of Data Science and Application, School of Information and Communication Technology, University of Phayao, Phayao 56000, Thailand"
+    },
+    {
+      "name": "Changruenngam, Thanayut",
+      "affiliation": "Faculty of Science and Technology, Chiang Rai Rajabhat University, Chiang Rai 57100, Thailand"
+    }
+  ],
+  "version": "1.2.0",
+  "publication_date": "2026-11-13",
+  "license": "mit-license",
+  "keywords": [
+    "species distribution modelling",
+    "nested spatial cross-validation",
+    "blackchin tilapia",
+    "citizen science",
+    "Thailand",
+    "geomatics"
+  ],
+  "access_right": "open",
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.21458863",
+      "relation": "isNewVersionOf",
+      "scheme": "doi"
+    }
+  ],
+  "notes": "MIT covers original code only. OSM-derived files remain ODbL; GBIF/iNaturalist records and photographs keep their own licences; other third-party source terms apply. Publish as a new version of the existing Zenodo record (concept DOI 10.5281/zenodo.21458862). Complete the repository and occurrence-download fields before publication."
+}

@@ -1,0 +1,18 @@
+[i20-80_b10] occurrences = 38  interval=[0.2,0.8] buffer=10.0 km
+  P1 post-proc: converted count to density; valid cells after zero-fill = 36992
+  rep=1 fold=1 AUC=0.899 PR=0.178 Brier=0.032 PA=1:10 8s
+  rep=1 fold=2 AUC=0.894 PR=0.303 Brier=0.064 PA=1:5 7s
+  rep=1 fold=3 AUC=0.997 PR=0.920 Brier=0.059 PA=1:5 8s
+  rep=2 fold=1 AUC=0.847 PR=0.300 Brier=0.056 PA=1:10 9s
+  rep=2 fold=2 AUC=0.984 PR=0.602 Brier=0.023 PA=1:10 7s
+  rep=2 fold=3 AUC=0.819 PR=0.689 Brier=0.036 PA=1:5 7s
+  rep=3 fold=1 AUC=0.260 PR=0.022 Brier=0.746 PA=1:5 6s
+  rep=3 fold=2 AUC=0.856 PR=0.212 Brier=0.179 PA=1:1 9s
+  rep=3 fold=3 AUC=0.865 PR=0.275 Brier=0.033 PA=1:10 8s
+  rep=4 fold=1 AUC=0.729 PR=0.075 Brier=0.142 PA=1:3 6s
+  rep=4 fold=2 AUC=0.899 PR=0.425 Brier=0.220 PA=1:1 9s
+  rep=4 fold=3 AUC=0.999 PR=0.962 Brier=0.071 PA=1:3 6s
+  rep=5 fold=1 AUC=0.750 PR=0.063 Brier=0.381 PA=1:3 5s
+  rep=5 fold=2 AUC=0.816 PR=0.159 Brier=0.273 PA=1:1 7s
+  rep=5 fold=3 AUC=0.989 PR=0.658 Brier=0.021 PA=1:10 6s
+[i20-80_b10] done in 1.8 min

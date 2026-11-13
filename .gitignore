@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+~$*
+.DS_Store
+Thumbs.db
+# WorldClim rasters are reconstructed locally with prepare_worldclim.py and are not redistributed
+external_cache/
+data/environmental/clipped/

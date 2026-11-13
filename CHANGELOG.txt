@@ -1,0 +1,42 @@
+# Changelog
+
+## 1.2.0 - 2026-11-13
+
+Peer-review revision (round 2). No result reported in version 1.1.0 changed.
+
+- Added `revision_round2/` with the scripts and outputs for Tables S3-S10 of the revised article:
+  - S3: record-level provenance and photographs of the 38 records, re-queried on 13 November 2026;
+  - S4: rank stability of held-out permutation importance;
+  - S5: leave-one-repetition-out check of configuration selection;
+  - S6-S7: comparison of pseudo-absence strategies (matched-pair and partition-level tests);
+  - S8: 12-setting sensitivity analysis of the uncertainty-zone interval and buffer, with fallback logging;
+  - S9: Moran's I correlogram of presence residuals;
+  - S10: sensitivity to 14 grid cells omitted because duplicate cells were removed before records after 2024
+    were excluded.
+- The uncertainty-zone baseline re-run reproduces the archived RF/M_SAP/uncertainty-zone results exactly
+  (`revision_round2/tables/TableS8_reproduction_check.csv`).
+- Added the inputs used by these scripts: `audit/output_audit/occurrence_clean.csv`,
+  `audit/original_download/occurrences_thailand.csv` (original GBIF download of Thailand records, 13 June 2026),
+  and `audit/blackchin_audit_verified.xlsx` (GBIF/iNaturalist re-query of 13 November 2026).
+- Extended `verify_release.py` with checks of the round-2 values reported in the revised article.
+- Documentation: the third algorithm is the elastic-net hinge logistic model (EN-Hinge), labelled `MXN` in code
+  and output files; two unused constants in `s00_config.py` are now commented as legacy.
+- Removed `blackchin_tilapia_analysis/output/sensitivity/` and `paper_tables/tableE_sensitivity.csv`, which came
+  from an earlier 22-record exploratory run and are not used by the article (they remain in version 1.1.0).
+- Known issue retained for traceability: in `revision_outputs/occurrence_model_records.csv`, the
+  `country_code` and `state_province` fields of the nine records obtained directly from iNaturalist contain
+  locality text. The analysis does not use these fields; Table S3 gives the province of every record.
+
+## 1.1.0 - 2026-07-17
+
+- Aligned the archive with the current unpublished article analysis.
+- Added the exact 38-row modelling occurrence input.
+- Added model-ready OSM/WorldPop-derived inputs with explicit licence mapping.
+- Added direct WorldClim download/cropping because redistribution is prohibited.
+- Added the population-density observation-process diagnostic and corrected Figure 4 assets.
+- Added numerical, checksum, input, and pre-upload verification scripts.
+- Added an output-provenance map and transparent reproducibility checks.
+
+## 1.0.0 - 2026-07-16
+
+- Initial code/results archive.

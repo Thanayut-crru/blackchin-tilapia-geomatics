@@ -1,0 +1,17 @@
+feature,label,group,selection_frequency,times_rank1,times_top5,median_rank,permutation_auc_decrease_mean,permutation_ci_lo,permutation_ci_hi
+P1_pop_density,Population density,P: human-pressure proxy,1.0,2,12,3.0,0.0231012187099019,0.0087460830662393,0.0377412631066364
+bio07,Annual temperature range,S: environmental suitability,0.6666666666666666,2,9,5.0,0.0315503467464822,0.0003852840099715,0.0689372001003131
+bio10,"Mean temperature, warmest quarter",S: environmental suitability,0.8,1,9,5.0,0.0277801033307235,0.010471711060003,0.049712485809356
+A2_waterway_order,Waterway order,A: waterway accessibility,1.0,1,9,5.0,0.0135983441530197,0.0018034210326004,0.028114923708298
+bio04,Temperature seasonality,S: environmental suitability,0.6,2,7,6.0,0.0240053952991453,0.0039359107905983,0.0500640900997151
+P4_dist_urban,Distance to urban area,P: human-pressure proxy,0.6,1,7,6.0,0.007898344017094,-0.0024239414173789,0.0184984975961538
+elevation,Elevation,S: environmental suitability,0.4,4,6,6.0,0.0283281517094017,0.0066401237535612,0.0568206414707977
+bio15,Precipitation seasonality,S: environmental suitability,1.0,0,5,8.0,0.0103018681629368,-0.0046039366429883,0.0292030674150736
+bio12,Annual precipitation,S: environmental suitability,0.6666666666666666,1,5,8.0,0.0056615970455188,-0.0176863270121082,0.0259175847089015
+bio11,"Mean temperature, coldest quarter",S: environmental suitability,0.2,1,2,8.0,0.0022194444444444,-0.000211574074074,0.0056928877314814
+bio17,"Precipitation, driest quarter",S: environmental suitability,0.8666666666666667,0,2,8.0,0.0021776220069159,-0.0149374613495248,0.0179473958673147
+bio16,"Precipitation, wettest quarter",S: environmental suitability,0.13333333333333333,0,1,8.0,0.0067405982905982,-0.0006730769230769,0.0208948717948718
+P3_road_density,Road density,P: human-pressure proxy,1.0,0,1,9.0,0.0013768579685087,0.0002236391152052,0.0027603159457167
+P2_dist_road,Distance to road,P: human-pressure proxy,0.0,0,0,8.0,0.0,0.0,0.0
+bio01,Annual mean temperature,S: environmental suitability,0.0,0,0,8.0,0.0,0.0,0.0
+A1_dist_waterway,Distance to waterway,A: waterway accessibility,0.7333333333333333,0,0,10.0,-0.00307197239077,-0.0089500221728811,0.000493632492225

@@ -1,0 +1,7 @@
+,auc_roc,auc_roc,pr_auc,pr_auc,brier,brier,tss,tss
+,mean,std,mean,std,mean,std,mean,std
+pa_method,,,,,,,,
+random,0.842,0.168,0.349,0.243,0.241,0.207,0.424,0.29
+spatial_constrained,0.814,0.194,0.336,0.264,0.25,0.23,0.39,0.289
+two_step,0.823,0.193,0.288,0.221,0.345,0.244,0.443,0.262
+uncertainty_zone,0.832,0.182,0.412,0.285,0.167,0.194,0.433,0.301
